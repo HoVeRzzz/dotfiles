@@ -1,4 +1,4 @@
-# -------------SHORTS------------------------
+# -------------YouTube Tweaks------------------------
 ! YT Homepage - Hide the Shorts section
 youtube.com##[is-shorts]
 
@@ -23,9 +23,6 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [ov
 ! YT Subscriptions - New Layout - Hide Shorts
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
 
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
-
 ! Block all the scripts responsible for annotations:
 /annotations_module.js$script,important,domain=youtube.com
 
@@ -35,31 +32,31 @@ youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer #avatar-link
 ! YT Home - Hide videos based on their titles
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer #video-title-link:is([title*="Partial Match"], [title*="Case-Insensitive Partial Match"i], [title~="Space-separated-aka-Whole-word-match"]):upward(ytd-rich-item-renderer)
 
-! YT Sidebar - Hide videos based on channel names
-youtube.com###related ytd-compact-video-renderer #video-title:is([aria-label*="by Partial or Full Channel name"], [aria-label*="by Case-insensitive Partial or full Channel name"i]):upward(ytd-compact-video-renderer)
-
-! YT Sidebar - Hide videos based on their titles
-youtube.com###related ytd-compact-video-renderer #video-title:is([title*="Partial Match"], [title*="Case-Insensitive Partial Match"i], [title~="Space-separated-aka-Whole-word-match"]):upward(ytd-compact-video-renderer)
-
 ! Mobile YT - Hide videos based on channel URLs
 m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelURL"], [href="/@AnotherChannelURL"]):upward(ytm-media-item)
 
+! Sidebar recommendations
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! End screen tiles
+www.youtube.com##.ytp-endscreen-content
+
 #-------------TERRY------------
 
-# login, settings, voice search etc
+# Voice Search Button
 www.youtube.com###voice-search-button
 
-# comments
+# Comments
 www.youtube.com###comments
 
-# live chat on streams
+# Live chat on streams
 ||www.youtube.com/live_chat$subdocument
 
-# sponsor and subscribe buttons
+# Sponsor and subscribe buttons
 www.youtube.com###sponsor-button
 
-# dislike button
+# Dislike button
 www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
 
-# recommended tags
+# Recommended tags
 www.youtube.com###chips-wrapper
