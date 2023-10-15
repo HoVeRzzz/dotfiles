@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "telemetry.telemetryLevel": "off",
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.profiles.windows": {
+        "bash" : {
+            "path" : "bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "bash",
+}
