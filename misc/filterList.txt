@@ -41,6 +41,9 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 ! End screen tiles
 www.youtube.com##.ytp-endscreen-content
 
+! Video Description
+www.youtube.com###description
+
 #-------------TERRY------------
 
 # Voice Search Button
