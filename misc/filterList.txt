@@ -44,6 +44,9 @@ www.youtube.com##.ytp-endscreen-content
 ! Video Description
 www.youtube.com###description
 
+! Like/Dislike, Share Buttons
+www.youtube.com###actions
+
 #-------------TERRY------------
 
 # Voice Search Button
