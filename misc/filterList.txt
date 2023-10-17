@@ -1,4 +1,6 @@
 # -------------YouTube Tweaks------------------------
+
+
 ! YT Homepage - Hide the Shorts section
 youtube.com##[is-shorts]
 
@@ -47,22 +49,19 @@ www.youtube.com###description
 ! Like/Dislike, Share Buttons
 www.youtube.com###actions
 
-#-------------TERRY------------
+! Disable live chat
+www.youtube.com###chat-container
 
-# Voice Search Button
+! Voice Search Button
 www.youtube.com###voice-search-button
 
-# Comments
+! Comments
 www.youtube.com###comments
 
-# Live chat on streams
-||www.youtube.com/live_chat$subdocument
-
-# Sponsor and subscribe buttons
+! Sponsor and subscribe buttons
 www.youtube.com###sponsor-button
 
-# Dislike button
-www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
-
-# Recommended tags
+! Recommended tags
 www.youtube.com###chips-wrapper
+
+# ---------------------------------------------------
