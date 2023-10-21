@@ -37,6 +37,9 @@ youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer #video-title
 ! Mobile YT - Hide videos based on channel URLs
 m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelURL"], [href="/@AnotherChannelURL"]):upward(ytm-media-item)
 
+! Disable Premium ads
+www.youtube.com###foreground-content
+
 ! Sidebar recommendations
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
