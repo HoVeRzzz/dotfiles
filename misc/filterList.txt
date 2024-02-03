@@ -40,6 +40,9 @@ m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelU
 ! Disable Premium ads
 www.youtube.com###foreground-content
 
+! Disable ambient mode
+www.youtube.com###cinematics.ytd-watch-flexy:remove()
+
 ! Sidebar recommendations
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
@@ -47,7 +50,7 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 www.youtube.com##.ytp-endscreen-content
 
 ! Video Description
-www.youtube.com###description
+#www.youtube.com###description
 
 ! Like/Dislike, Share Buttons
 www.youtube.com###actions
@@ -59,7 +62,7 @@ www.youtube.com###chat-container
 www.youtube.com###voice-search-button
 
 ! Comments
-www.youtube.com###comments
+! www.youtube.com###comments
 
 ! Sponsor and subscribe buttons
 www.youtube.com###sponsor-button
